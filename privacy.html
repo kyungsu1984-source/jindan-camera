@@ -13,52 +13,60 @@
 </head>
 <body>
 <h1>진단카메라 개인정보처리방침</h1>
-<p class="muted">시행일: 2026년 11월 2일 · 운영: ㈜서현 안전진단본부</p>
+<p class="muted">시행일: 2026년 11월 11일 · 운영자: NEWDAPTIVE</p>
 
-<p>진단카메라(이하 “앱”)는 시설물 안전진단 현장에서 사진을 지정한 이름과 번호로 저장·관리하기 위한 업무용 카메라 앱입니다. 앱은 개발·운영자의 서버로 어떠한 개인정보도 전송하지 않으며, 모든 데이터는 사용자의 휴대폰과 사용자가 직접 연결한 저장소(본인의 Google 드라이브, 회사 NAS)에만 저장됩니다.</p>
+<p>진단카메라(이하 “앱”)는 시설물 안전점검·진단 현장에서 사진을 지정한 이름과 번호로 저장·관리하기 위한 카메라 앱입니다. 앱은 운영자(NEWDAPTIVE)의 서버로 어떠한 개인정보도 전송하지 않으며, 모든 데이터는 사용자의 휴대폰과 사용자가 직접 연결한 저장소(본인의 Google 드라이브, 사용자 회사의 NAS)에만 저장됩니다. 앱에는 광고와 이용 통계·분석 도구가 없습니다.</p>
 
 <h2>1. 처리하는 정보와 목적</h2>
 <table>
 <tr><th>정보</th><th>목적</th><th>저장 위치</th></tr>
 <tr><td>카메라 영상(사진·동영상)</td><td>현장 사진·동영상 촬영</td><td>휴대폰 내부 저장소(DCIM/진단카메라)</td></tr>
 <tr><td>마이크 음성</td><td>동영상 녹음, 음성 메모 입력(휴대폰의 음성인식 서비스 이용)</td><td>동영상 파일 / 메모 텍스트</td></tr>
-<tr><td>위치(GPS)</td><td>사진 촬영 위치 기록(사진 EXIF, 촬영기록)</td><td>휴대폰 내부 저장소</td></tr>
+<tr><td>위치(GPS)</td><td>사진 촬영 위치 기록(사진 EXIF, 촬영기록). 앱 사용 중에만 사용하며 백그라운드 위치는 사용하지 않습니다.</td><td>휴대폰 내부 저장소</td></tr>
 <tr><td>현장명·점검자명·메모</td><td>파일명, 사진 각인, 촬영기록(CSV) 작성</td><td>휴대폰 내부 저장소</td></tr>
 <tr><td>Google 계정 접근 권한(선택)</td><td>사용자가 요청한 경우 본인 Google 드라이브로 사진 업로드</td><td>사용자 본인의 Google 드라이브</td></tr>
-<tr><td>회사 NAS 주소·계정·암호(선택)</td><td>사용자가 설정한 회사 NAS로 사진 업로드</td><td>휴대폰 내부(암호는 Android Keystore로 암호화)</td></tr>
+<tr><td>NAS 주소·계정·암호·인증서 지문(선택)</td><td>사용자가 설정한 NAS로 사진 업로드, 사용자가 확인한 NAS 인증서만 허용</td><td>휴대폰 내부(암호는 Android Keystore로 암호화)</td></tr>
+<tr><td>무료 체험 사용량·PRO 구매 여부</td><td>무료 체험(30장) 관리, 구매 기능 제공</td><td>휴대폰 내부 저장소</td></tr>
 </table>
 
-<h2>2. Google 사용자 데이터의 이용</h2>
+<h2>2. 유료 기능(인앱 구매)</h2>
+<ul>
+<li>PRO 구매는 Google Play 결제 시스템으로 처리됩니다. 카드번호 등 결제 정보는 Google이 처리하며 운영자는 이를 받거나 보관하지 않습니다.</li>
+<li>앱은 구매 여부 확인을 위해 Google Play로부터 구매 상태만 조회하며, 이 정보를 운영자 서버로 전송하지 않습니다.</li>
+<li>결제·환불은 <a href="https://support.google.com/googleplay/answer/2479637">Google Play 환불 정책</a>을 따릅니다.</li>
+</ul>
+
+<h2>3. Google 사용자 데이터의 이용</h2>
 <p>앱은 사용자가 설정 화면에서 「구글 계정 연결」을 선택한 경우에만 Google 드라이브 권한 <code>https://www.googleapis.com/auth/drive.file</code>을 요청합니다. 이 권한으로 앱은 <strong>앱이 직접 만든 폴더와 파일에만</strong> 접근하며, 사용자의 다른 드라이브 파일은 열람·수정할 수 없습니다.</p>
 <ul>
 <li>앱은 사진·동영상·촬영기록 파일을 사용자 본인의 드라이브 “진단카메라” 폴더에 업로드하는 용도로만 이 권한을 사용합니다.</li>
-<li>Google 사용자 데이터를 개발·운영자나 제3자에게 전송·판매·공유하지 않으며, 광고나 분석 목적으로 사용하지 않습니다.</li>
+<li>Google 사용자 데이터를 운영자나 제3자에게 전송·판매·공유하지 않으며, 광고나 분석 목적으로 사용하지 않습니다.</li>
 <li>앱의 Google API 사용은 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>의 제한적 사용(Limited Use) 요건을 준수합니다.</li>
 </ul>
 
-<h2>3. 제3자 제공 및 국외 이전</h2>
-<p>앱은 개인정보를 제3자에게 제공하지 않습니다. 다만 사용자가 직접 선택한 경우 다음 서비스로 데이터가 전송됩니다.</p>
+<h2>4. 제3자 제공 및 전송</h2>
+<p>앱은 개인정보를 제3자에게 제공하지 않습니다. 다만 사용자가 직접 선택한 경우 다음으로 데이터가 전송됩니다.</p>
 <ul>
-<li>Google 드라이브(Google LLC): 사용자 본인 계정으로의 업로드</li>
+<li>Google 드라이브(Google LLC, 미국 등 국외 서버): 사용자 본인 계정으로의 업로드</li>
 <li>휴대폰의 음성인식·음성합성 서비스: 음성 메모 입력, 사진번호 음성 안내</li>
-<li>사용자 회사의 NAS: 사용자가 설정한 주소로의 업로드</li>
+<li>사용자가 설정한 NAS: 업로드. 외부 주소는 암호화(https) 통신만 허용합니다. 사내망(사설 IP) 주소를 http로 설정한 경우에는 해당 사내망 안에서 암호화되지 않은 상태로 전송됩니다.</li>
 </ul>
 
-<h2>4. 보관 및 삭제</h2>
+<h2>5. 보관 및 삭제</h2>
 <ul>
 <li>사진·동영상은 사용자가 휴대폰에서 직접 삭제할 때까지 보관됩니다. 앱을 삭제해도 사진 파일은 휴대폰에 남습니다.</li>
-<li>촬영기록·설정·저장된 NAS 암호는 앱 삭제 시 함께 삭제됩니다. 설정의 「NAS 연결 해제」로도 암호를 삭제할 수 있습니다.</li>
+<li>촬영기록·설정·저장된 NAS 암호는 앱 삭제 시 함께 삭제됩니다. 설정의 「NAS 연결 해제」로도 암호를 삭제할 수 있습니다. 계정·암호가 담긴 설정은 휴대폰 클라우드 백업에서 제외됩니다.</li>
 <li>Google 드라이브 접근 권한은 <a href="https://myaccount.google.com/permissions">Google 계정 &gt; 보안 &gt; 서드파티 앱 액세스</a>에서 언제든 해제할 수 있습니다.</li>
 </ul>
 
-<h2>5. 수집하지 않는 정보</h2>
-<p>앱은 광고 식별자, 연락처, 통화기록 등을 수집하지 않으며, 별도의 이용 통계·분석 도구를 포함하지 않습니다.</p>
+<h2>6. 수집하지 않는 정보</h2>
+<p>앱은 광고 식별자, 기기 식별자, 연락처, 통화기록, 이메일 주소 등을 운영자에게 전송하지 않으며, 별도의 이용 통계·분석·광고 도구를 포함하지 않습니다. 앱은 만 14세 미만 아동을 대상으로 하지 않습니다.</p>
 
-<h2>6. 문의</h2>
-<p>㈜서현 안전진단본부 · 이메일 <a href="mailto:kyungsu1984@gmail.com">kyungsu1984@gmail.com</a></p>
+<h2>7. 문의</h2>
+<p>NEWDAPTIVE · 이메일 <a href="mailto:kyungsu1984@gmail.com">kyungsu1984@gmail.com</a></p>
 
 <hr>
 <h2>Privacy Policy (English summary)</h2>
-<p>Jindan Camera is an in-house field-inspection camera app by Seohyun Co., Ltd. It sends no data to the developer. Photos, videos, location and notes stay on the device. If the user chooses to link a Google account, the app requests only the <code>drive.file</code> scope and uploads the user's own photos and logs to a “진단카메라” folder in the user's own Google Drive; it cannot access other Drive files. Google user data is never sold, shared, or used for advertising, and the app's use of Google APIs complies with the Google API Services User Data Policy, including the Limited Use requirements. Access can be revoked at any time at myaccount.google.com/permissions. Contact: kyungsu1984@gmail.com</p>
+<p>Jindan Camera is a field-inspection camera app published by NEWDAPTIVE. It sends no data to the developer and contains no ads or analytics. Photos, videos, location and notes stay on the device. If the user chooses to link a Google account, the app requests only the <code>drive.file</code> scope and uploads the user's own photos and logs to a “진단카메라” folder in the user's own Google Drive; it cannot access other Drive files. Google user data is never sold, shared, or used for advertising, and the app's use of Google APIs complies with the Google API Services User Data Policy, including the Limited Use requirements. Optional uploads to a user-configured Synology NAS use HTTPS for external addresses; plain HTTP is allowed only for private-network addresses. In-app purchases are processed by Google Play; the developer never receives payment details. Access can be revoked at any time at myaccount.google.com/permissions. Contact: kyungsu1984@gmail.com</p>
 </body>
 </html>
